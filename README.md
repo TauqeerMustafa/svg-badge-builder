@@ -76,6 +76,26 @@ flowchart LR
 
 ---
 
+## 🎨 Badge Style Presets & Examples
+
+Easily generate clean, production-ready SVG badges with built-in color presets:
+
+```bash
+# Build a status badge (Passing - Green)
+python svg_badge_builder.py --label "build" --message "passing" --color "4c1"
+
+# Build a release version badge (v1.2.0 - Blue)
+python svg_badge_builder.py --label "version" --message "v1.2.0" --color "007ec6"
+
+# Build a license badge (MIT - Yellow-Green)
+python svg_badge_builder.py --label "license" --message "MIT" --color "a4a61d"
+
+# Custom badge with output filename
+python svg_badge_builder.py --label "coverage" --message "98%" --color "brightgreen" --output coverage.svg
+```
+
+---
+
 ## 🤝 Contributing
 
 Contributions, feature suggestions, and pull requests are warmly welcomed!
